@@ -1,13 +1,6 @@
 
 export const EMBEDDING_MODEL = 'doubao-embedding-vision-250615';
 export const EMBEDDING_DIMENSION = 2048; // 更新为 2048 维度
-export const DB_CONFIG = {
-  host: 'localhost',
-  port: 5432,
-  user: 'postgres',
-  database: 'searchimg_db',
-  table: 'media_items'
-};
 
 export const SQL_SCHEMA = `
 -- 数据库初始化脚本
