@@ -1,0 +1,43 @@
+{
+  "name": "visionsearch-backend",
+  "version": "1.0.0",
+  "description": "多模态视觉搜索后端服务",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "init:db": "tsx src/scripts/initDb.ts",
+    "test:db": "tsx src/scripts/testDb.ts",
+    "create:index": "tsx src/scripts/createIndex.ts",
+    "db:check": "tsx src/scripts/checkTable.ts"
+  },
+  "keywords": [
+    "vector-search",
+    "pgvector",
+    "image-search"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@volcengine/tos-sdk": "^2.7.6",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "pgvector": "^0.2.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.11.16",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

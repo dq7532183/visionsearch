@@ -1,0 +1,7 @@
+{
+  "name": "VisionSearch AI - 多模态视觉搜索引擎",
+  "description": "基于 Seed-1.6 向量化模型与 PostgreSQL pgvector 的跨模态搜索演示平台，支持文搜图和图搜图。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
