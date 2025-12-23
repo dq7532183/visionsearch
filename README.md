@@ -1,3 +1,11 @@
+
+<img width="1719" height="1221" alt="591ae86a672ec69c5d421f34198a8f49" src="https://github.com/user-attachments/assets/b05b944f-88f2-43a9-be99-16cb32028657" />
+
+<img width="995" height="878" alt="bf925ae73e98807e057e030bbc1b8882" src="https://github.com/user-attachments/assets/42f01dd8-bdb3-458d-9fc5-00849acb655b" />
+<img width="999" height="1106" alt="15942dcc9017dae4dfa1e0c8e7f51c00" src="https://github.com/user-attachments/assets/d31c7505-3b58-45ed-8a5a-20dd69d25dac" />
+
+<img width="973" height="814" alt="344217fa92670c2410f29b548a0b778e" src="https://github.com/user-attachments/assets/0cddca07-43c2-4c22-b9d0-e547b6f9586e" />
+
 # 多模态视觉搜索引擎
 
 完整的图搜、文搜、视频搜 项目,使用React前端 + Node.js后端 + PostgreSQL+pgvector
